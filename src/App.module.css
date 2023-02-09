@@ -1,0 +1,85 @@
+
+nav{
+background-color: #1e1645;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: .75em;
+flex-direction: row-reverse;
+}
+
+li{
+ display: inline-block;
+ margin: 40px;
+ color: white;
+ outline: none;
+ 
+ text-decoration: none;
+ font-size: 30px;
+}
+
+.list{
+ text-decoration: none;
+ color: white;
+ outline: none;
+}
+
+/*CSS FOR CARD */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  margin: 40px;
+  text-align: center;
+  font-family: arial;
+}
+
+img{
+ width: 300px;
+}
+
+.content h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.content2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+/*CSS FOR BUTTONS */
+
+.button{
+  width: 300px; 
+  height: 30px;
+}
+
+
+/*CSS FOR ABOUT SECTION */
+
+.main{
+ max-width: 1140px;
+ margin: 0 auto
+ 
+}
+
+
+/*css for breakfast */
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+input[type = "text"]{
+padding: .6em 2.25em .6em .75em;
+}
